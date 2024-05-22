@@ -1,96 +1,12 @@
-// Light Theme Palette
-$light-primary: #8f7ee7;
-$light-secondary: #9f8fef; 
-$light-background: #FFFFFF;
-$light-text: #101214;
-$light-accent: #f39c12;
-
-// Dark Theme Palette
-$dark-primary: #8f7ee7;
-$dark-secondary: #9f8fef;
-$dark-background: #101214;
-$dark-text: #FFFFFF;
-$dark-accent: #f1c40f;
-
-// Purple Shades
-$purple100: #F3F0FF;
-$purple200: #DFD8FD;
-$purple300: #B8ACF6;
-$purple400: #9F8FEF;
-$purple500: #8F7EE7;
-$purple600: #8270DB;
-$purple700: #6E5DC6;
-$purple800: #5E4DB2;
-$purple900: #352C63;
-$purple1000: #2B273F;
-
-@font-face {
-  font-family: 'Black';
-  src: url('./assets/fonts/Roboto-Black.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'BlackItalic';
-  src: url('./assets/fonts/Roboto-BlackItalic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Regular';
-  src: url('./assets/fonts/Roboto-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Bold';
-  src: url('./assets/fonts/Roboto-Bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Medium';
-  src: url('./assets/fonts/Roboto-Medium.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Light';
-  src: url('./assets/fonts/Roboto-Light.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Thin';
-  src: url('./assets/fonts/Roboto-Thin.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Italic';
-  src: url('./assets/fonts/Roboto-Italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'BoldItalic';
-  src: url('./assets/fonts/Roboto-BoldItalic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'MediumItalic';
-  src: url('./assets/fonts/Roboto-MediumItalic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'LightItalic';
-  src: url('./assets/fonts/Roboto-LightItalic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'ThinItalic';
-  src: url('./assets/fonts/Roboto-ThinItalic.ttf') format('truetype');
-}
-
+@import './assets/fonts';
+@import './assets/colors';
 
 
 body {
   margin: 0;
   font-family: 'Regular', sans-serif;
   background-color: $dark-background;
-  color: $dark-background;
+  color: $dark-primary;
 }
 
 code {
