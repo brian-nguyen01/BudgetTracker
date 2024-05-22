@@ -1,0 +1,24 @@
+@import "../../assets/colors";
+
+.dark{
+    background-color: $dark-background;
+
+}
+.a{
+    color: $light-primary;
+    background-color: $light-primary;
+}
+.b{
+    color: $light-secondary;
+    background-color: $light-secondary;
+}
+
+.c{
+    color: $dark-primary;
+    background-color: $dark-background;
+}
+
+.d{
+    color: $dark-secondary;
+    background-color: $dark-background;
+}
