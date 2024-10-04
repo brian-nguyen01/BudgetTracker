@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { ThemeProvider, CssBaseline} from '@mui/material';
 import { lightTheme, darkTheme } from './themes';
 import Cookies from 'js-cookie';
-import SettingsButton from './components/Buttons/SettingsButton';
+import ToggleLightDarkButton from './components/Buttons/ToggleLightDarkButton';
 import './index.scss'
 
 const Home = lazy(() => import('./pages/Home/Home'));
@@ -23,7 +23,7 @@ const App = () => {
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
-            <SettingsButton className="settings-button" />
+            <ToggleLightDarkButton className={'toggletheme-button'}></ToggleLightDarkButton>
         </div>
       </Router>
     </ThemeProvider>

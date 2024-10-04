@@ -11,7 +11,7 @@ code {
     monospace;
 }
 
-.settings-button {
+.toggletheme-button {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -20,7 +20,7 @@ code {
 }
 
 @media (max-width: 600px) {
-  .settings-button {
+  .toggletheme-button {
     bottom: 10px;
     right: 10px;
     max-width: 50px;
