@@ -1,5 +1,9 @@
 import React from 'react';
 import './Home.scss';
+import PrimaryButton from '../../components/Buttons/PrimaryButton';
+import ToggleLightDarkButton from '../../components/Buttons/ToggleLightDarkButton';
+import SecondaryButton from '../../components/Buttons/SecondaryButton';
+import SettingsButton from '../../components/Buttons/SettingsButton';
 const Home = () => {
   return (
     <div>
@@ -9,8 +13,10 @@ const Home = () => {
             <h1 className='c'>Color Test</h1>
             <h1 className='d'>Color Test</h1>
         </div>
-
-
+        <PrimaryButton label={"Hello"} />
+        <ToggleLightDarkButton />
+        <SecondaryButton label={"Hello"} />
+        <SettingsButton />
     </div>
   );
 }
